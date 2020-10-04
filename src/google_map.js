@@ -1154,6 +1154,7 @@ class GoogleMap extends Component {
 
     return (
       <div
+        className={this.props.className}
         style={this.props.style}
         onMouseMove={this._onMapMouseMove}
         onMouseDownCapture={this._onMapMouseDownCapture}
